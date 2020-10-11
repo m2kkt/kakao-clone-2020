@@ -33,6 +33,8 @@
 #login-form input:not([type="submit"]) {
   border-bottom: var(--main-border);
   transition: border-color 0.3s ease-in-out;
+  background-color: var(--black);
+  color: white;
 }
 
 #login-from input::placeholder {
