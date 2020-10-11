@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -11,6 +12,41 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
+.screen-header__icons {
+  display: flex;
+}
+
+.screen-header__icons > span {
   margin-left: 22px;
+  position: relative;
+  display: flex;
+}
+
+.screen-header__dot {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+@keyframes rotateCog {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+
+.screen-header__icons .fa-cog {
+  font-size: 20px;
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
 }
