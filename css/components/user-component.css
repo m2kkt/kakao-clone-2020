@@ -49,6 +49,11 @@
   align-items: flex-end;
 }
 
+.user-component__column:last-child span,
+.user-component__column:last-child i {
+  color: white;
+}
+
 .user-comoponent__time {
   margin-bottom: 10px;
   display: block;
@@ -134,6 +139,6 @@
 }
 
 .user-component__subtitle > span {
-  color: red;
+  color: tomato;
   margin-left: 5px;
 }

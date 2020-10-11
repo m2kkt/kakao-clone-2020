@@ -1,0 +1,29 @@
+@keyframes rotateBadge {
+  0% {
+    transform: none;
+  }
+
+  5% {
+    transform: translateY(-10px);
+  }
+
+  10% {
+    transform: none;
+  }
+
+  15% {
+    transform: translateY(-10px);
+  }
+
+  20% {
+    transform: none;
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.user-component__column .badge {
+  animation: rotateBadge 5s linear infinite;
+}

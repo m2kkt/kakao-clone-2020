@@ -19,12 +19,18 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/chats.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #2e363e;
+  color: white;
+  background-color: #2e363e;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+img[src="img/kitty.png"] {
+  background-color: white;
 }
