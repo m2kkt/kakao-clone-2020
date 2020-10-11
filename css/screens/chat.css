@@ -12,8 +12,7 @@
   box-sizing: border-box;
 }
 
-#chat-screen .alt-header,
-#chat-screen .status-bar {
+#chat-screen .alt-header {
   background-color: var(--black);
 }
 
